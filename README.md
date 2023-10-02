@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-iter-special-gammaln
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterGammaln = require( '@stdlib/math-iter-special-gammaln' );
+import iterGammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-gammaln@deno/mod.js';
 ```
 
 #### iterGammaln( iterator )
@@ -76,7 +60,7 @@ var iterGammaln = require( '@stdlib/math-iter-special-gammaln' );
 Returns an [iterator][mdn-iterator-protocol] which iteratively evaluates the natural logarithm of the [gamma function][@stdlib/math/base/special/gammaln].
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
 
 var it = iterGammaln( array2iterator( [ 3.0, -1.5, -0.5 ] ) );
 // returns <Object>
@@ -124,8 +108,8 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var uniform = require( '@stdlib/random-iter-uniform' );
-var iterGammaln = require( '@stdlib/math-iter-special-gammaln' );
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
+import iterGammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-gammaln@deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( -2.0, 2.0, {
@@ -183,7 +167,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -247,9 +231,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/deno
 
-[@stdlib/math/iter/special/gamma]: https://github.com/stdlib-js/math-iter-special-gamma
+[@stdlib/math/iter/special/gamma]: https://github.com/stdlib-js/math-iter-special-gamma/tree/deno
 
 <!-- </related-links> -->
 
