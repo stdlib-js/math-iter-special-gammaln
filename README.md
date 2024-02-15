@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterGammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-gammaln@esm/index.mjs';
+import iterGammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-gammaln@v0.2.0-esm/index.mjs';
 ```
 
 #### iterGammaln( iterator )
@@ -114,7 +114,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterGammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-gammaln@esm/index.mjs';
+import iterGammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-gammaln@v0.2.0-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( -2.0, 2.0, {
